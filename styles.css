@@ -1,0 +1,12 @@
+.calcbody {
+    background-color: silver;
+    width: 75vw;
+    height: 50vh;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid steelblue;
+}
+#calcbody {
+    display: grid;
+    
+}
