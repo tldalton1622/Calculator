@@ -1,12 +1,19 @@
 .calcbody {
     background-color: silver;
-    width: 75vw;
+    width: 50vw;
     height: 50vh;
     border-radius: 10px;
     border-width: 5px;
     border-style: solid steelblue;
+    margin-left: auto;
+    margin-right: auto;
 }
 #calcbody {
     display: grid;
     
+}
+
+.genericButton {
+    height: 10%;
+    width: 10%;
 }
