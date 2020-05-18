@@ -1,17 +1,19 @@
 .calcBody {
     background-color: silver;
     width: 50vw;
-    height: 50vh;
+    height: 30vh;
     border-radius: 10px;
     border-width: 5px;
     border-style: solid steelblue;
     margin-left: auto;
     margin-right: auto;
+    grid-template-columns: 75%;
+    grid-template-rows: ;
 }
 .numberedBody {
     display: grid;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: 4;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     
 }
 #calcBody {
@@ -23,3 +25,13 @@
     height: 1fr;
     width: 1fr;
 }
+.item0Button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+};
+.itemPlusButton {
+
+};
+.itemMinusButton {
+
+};
