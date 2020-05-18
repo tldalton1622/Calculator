@@ -1,4 +1,4 @@
-.calcbody {
+.calcBody {
     background-color: silver;
     width: 50vw;
     height: 50vh;
@@ -8,12 +8,18 @@
     margin-left: auto;
     margin-right: auto;
 }
-#calcbody {
+.numberedBody {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 4;
+    
+}
+#calcBody {
     display: grid;
     
 }
 
-.genericButton {
-    height: 10%;
-    width: 10%;
+.numberedButton {
+    height: 1fr;
+    width: 1fr;
 }
