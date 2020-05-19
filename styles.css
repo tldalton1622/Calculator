@@ -7,13 +7,13 @@
     border-style: solid steelblue;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 75%;
+    grid-template-columns: 100%;
     grid-template-rows: ;
 }
 .numberedBody {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 25% 25% 25% 25%;
     
 }
 #calcBody {
@@ -30,8 +30,9 @@
     grid-column-end: 3;
 };
 .itemPlusButton {
-
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 };
-.itemMinusButton {
 
-};
