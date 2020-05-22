@@ -2,13 +2,14 @@
     background-color: silver;
     width: 50vw;
     height: 30vh;
+    max-width: 200px;
     border-radius: 10px;
     border-width: 5px;
     border-style: solid steelblue;
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: 100%;
-    grid-template-rows: ;
+    margin-top: 100px;
 }
 .numberedBody {
     display: grid;
@@ -29,10 +30,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
 };
-.itemPlusButton {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-};
 
+#calcDisplay {
+    background-color: cornflowerblue;
+    height: 100px;

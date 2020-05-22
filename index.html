@@ -9,30 +9,31 @@
 </head>
 <body>
     <h1>Calculator v1.0</h1>
-
-    
     <div id='calcBody' class='calcBody'>
+        <h2 id='calcDisplay'></h2>
         <div id='numberedBody'class='numberedBody'>
-            <button class="numberedButton item1Button">1</button>
-            <button class='numberedButton'>2</button>
-            <button class='numberedButton'>3</button>
-            <button class='numberedButton itemDivideButton'>/</button>
-            <button class='numberedButton item4Button'>4</button>
-            <button class='numberedButton item5Button'>5</button>
-            <button class='item6Button numberedButton'>6</button>
-            <button class='numberedButton itemMultiplyButton'>*</button>
-            <button class='item7Button numberedButton'>7</button>
-            <button class='numberedButton item8Button'>8</button>
-            <button class='item9Button numberedButton'>9</button>
-            <button class='numberedButton itemMinusButton'>-</button>
-            <button class='numberedButton item0Button'>0</button>
-            <button class='itemEqualsButton'>=</button>
-            <button class='itemPlusButton'>+</button>
+            <button class='numberedButton' id='item1Button' value='1'>1</button>
+            <button class='numberedButton' id='item2Button' value='2'>2</button>
+            <button class='numberedButton' id='item3Button' value='3'>3</button>
+            <button class='operationButton' id='itemDivideButton' value='/'>/</button>
+            <button class='numberedButton' id='item4Button' value='4'>4</button>
+            <button class='numberedButton' id='item5Button' value='5'>5</button>
+            <button class='numberedButton' id='item6Button' value='6'>6</button>
+            <button class='operationButton' id='itemMultiplyButton' value='*'>*</button>
+            <button class='numberedButton' id='item7Button' value='7'>7</button>
+            <button class='numberedButton' id='item8Button' value='8'>8</button>
+            <button class='numberedButton' id='item9Button' value='9'>9</button>
+            <button class='operationButton' id='itemMinusButton' value='-'>-</button>
+            <button class='item0Button' id='item0Button' value='0'>0</button> <!--own class to span 2 cells-->
+            <button id='itemEqualsButton' value='='>=</button>
+            <button class='operationButton' id='itemPlusButton' value='plus'>+</button>
+            <!--Operation Buttons-->
+            
         </div>
 
     </div>
-<a src = "scripts.js"></a>
 
+    <script src='scripts.js'></script>
 </body>
 
 </html>
