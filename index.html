@@ -9,9 +9,12 @@
 </head>
 <body>
     <h1>Calculator v1.0</h1>
+    
     <div id='calcBody' class='calcBody'>
-        <h2 id='calcDisplay'></h2>
+        <div id='calcDisplay'></div>
         <div id='numberedBody'class='numberedBody'>
+            <button id='itemClearButton'>C</button>
+            <button class='operationButton' id='itemBackspaceButton'>BackSpace</button>
             <button class='numberedButton' id='item1Button' value='1'>1</button>
             <button class='numberedButton' id='item2Button' value='2'>2</button>
             <button class='numberedButton' id='item3Button' value='3'>3</button>
@@ -23,7 +26,7 @@
             <button class='numberedButton' id='item7Button' value='7'>7</button>
             <button class='numberedButton' id='item8Button' value='8'>8</button>
             <button class='numberedButton' id='item9Button' value='9'>9</button>
-            <button class='operationButton' id='itemMinusButton' value='-'>-</button>
+            <button class='operationButton' id='subtract' value='-'>-</button>
             <button class='item0Button' id='item0Button' value='0'>0</button> <!--own class to span 2 cells-->
             <button id='equals' value='='>=</button>
             <button class='operationButton' id='itemPlusButton' value='plus'>+</button>

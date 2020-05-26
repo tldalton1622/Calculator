@@ -1,12 +1,18 @@
 var firstOperand = 0;
 var operation = 0;
 var secondOperand = 0;
-
-
 const numberButton = document.querySelectorAll('.numberedButton');
 const operationButton = document.querySelectorAll('.operationButton');
 const display = document.getElementById('calcDisplay');
 const equalsOrCompute = document.getElementById('equals');
+const clearButton = document.getElementById('itemClearButton');
+
+clearButton.addEventListener('click', (e) => {
+     display.innerText = "";
+     firstOperand = 0;
+     operation = 0;
+     secondOperand = 0;
+});
 
 operationButton.forEach((button) => {
      button.addEventListener('click', (e) => {
@@ -17,14 +23,10 @@ operationButton.forEach((button) => {
 
                //let total = addFunction(firstOperand, secondOperand);
                
-          } else if (button.value !== 'plus') {
-               alert('someting else');
+          } else if (button.value === 'subtract') {
+               
           }
-          
-          
-     })
-}
-);
+     })});  
 numberButton.forEach((button) => {
      button.addEventListener('click', (e) => {
           const number = button.value;
